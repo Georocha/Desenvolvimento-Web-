@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campos de texto</title>
+</head>
+<body>
+    <header><h1>Forms</h1></header>
+    <nav></nav>
+    <section>
+        <form method="post" action="#">
+            <fieldset>
+            <legend>Dados pessoais</legend>
+            Name: <input type="text" name="name" placeholder="Enter your name" required autofocus>
+            Cpf: <input type="text" name="cpf" maxlength="14" pattern="[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}" placeholder="Enter your numbers">
+            Email: <input type="email" name="email" placeholder="Enter your email" >
+            <button type="submit">Enviar</button>
+            </fieldset>
+            <fieldset>
+                Quais cursos você fará?<br>
+                <input type="checkbox" name="html" value="1">HTML<br>
+                <input type="checkbox" name="css" value="1">CSS<br>
+                <input type="checkbox" name="JavaScript" value="1">JavaScript<br>
+            </fieldset>
+            Selecione o país:<br>
+            <select name="pais" id="">
+                <option value="">Brasil</option>
+                <option value="">Argentina</option>
+            </select>
+        </form>
+    </section>
+</body>
+</html>
