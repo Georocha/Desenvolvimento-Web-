@@ -1,0 +1,15 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+    color: chocolate;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    list-style-image: url(img/favicon-32x32.png);
+    list-style-position: inside;
+}
