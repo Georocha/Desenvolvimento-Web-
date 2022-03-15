@@ -1,32 +1,26 @@
 programa
-
 {
 
-               inclua biblioteca Util
+  inclua biblioteca Util
 
-              
+  funcao inicio()
 
-               funcao inicio()
+  {
 
-               {
+      inteiro matriz[3][3] = {{1,2,3},{3,4,4},{4,4,4}}
 
-                               inteiro matriz[3][3] = {{1,2,3},{3,4,4},{4,4,4}}
+      para(inteiro x=0;x<Util.numero_linhas(matriz);x++){
+           para(inteiro y=0;y<Util.numero_colunas(matriz);y++){
 
-                               para(inteiro x=0;x<Util.numero_linhas(matriz);x++){
+                se(x%2==0 e y%2==0){
 
-                                               para(inteiro y=0;y<Util.numero_colunas(matriz);y++){
+                   escreva(matriz[x][y])
 
-                                                               se(x%2==0 e y%2==0){
+                }
+           }
+      }
 
-                                                                              escreva(matriz[x][y])
-
-                                                               }
-
-                                               }
-
-                               }
-
-               }
+   }
 } 
 /* $$$ Portugol Studio $$$ 
  * 
